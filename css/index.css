@@ -1,0 +1,291 @@
+*{margin:0;padding:0;}
+
+body{
+  color:#464646;
+  font-size:14px;
+}
+.top_bottom{
+  border-bottom:2px solid #fff;
+  box-shadow:-2px 2px 2px #555;
+}
+a{text-decoration:none;}
+a:hover{
+  text-decoration:none;
+}
+
+.foot-img{
+  display:block;
+  width:126px;  
+  height:32px;  
+  background:url("../html/imgs/spr.png") no-repeat 0 -628px;
+}
+
+footer{
+  clear:both;
+  font-size:12px;
+  background:#000;
+}
+/* footer下面包屑导航 */
+.breadcrumb-item + .breadcrumb-item::before{
+  content:"|";
+}
+
+/* aside */
+.aside-rg{
+  background:url(../html/imgs/lside_rp.png) repeat-y;
+  width:384px;
+  height:2500px;
+  float:left;
+  cursor:pointer;
+}
+.aside-bg{
+  background:url("../html/imgs/lside_bg.jpg") no-repeat;
+  width:384px;
+  height:2500px;
+  padding-left:192px;
+}
+
+.logo{
+  width:192px;
+  height:143px;
+  display:block;
+}
+.download{
+  width:192px;
+  height:206px;
+  background-color:#d25d1e;
+  display:block;
+  position:relative;
+}
+.aside-img{
+  background:url("../html/imgs/spr.png") no-repeat;
+}
+.download-top{
+  width:192px;
+  height:21px;
+  position:absolute;
+  display:block;
+}
+.download-img{
+  height:127px;
+  width:192px;
+  background-position:0 -21px;
+  position:absolute;
+  top:45px;
+  transition: all 0.2s ease-in-out;
+}
+.download-font{
+  height:145px;
+  width:192px;
+  background:url("../html/imgs/spr.png") no-repeat 0 -148px #d25d1e;
+  z-index:2;
+  position:absolute;
+  top:40px;
+  display:none;
+}
+ .download:hover .download-font{
+  display:block;
+} 
+.first-link{
+  width:192px;
+  height:95px;
+  border-bottom:3px solid #d25d1e;
+  background-color:#f2782f;
+  position:relative;
+}
+.first-link-img{
+  display:block;
+  height:50px;
+  width:50px;
+  background-position:-100px -304px;
+  position:absolute;
+  top:12px;
+  left:70px;
+}
+.first-text{
+  height:24px;
+  color:#36313f;
+  line-height:24px;
+  position:absolute;
+  top:52px;
+  left:58px;  
+}
+.text{
+  width:192px;
+  height:95px;
+  background-color:#F6903C;
+  display:none;
+  line-height:95px;
+  position:absolute;
+  font-size:16px;
+}
+.first-link:hover .text{
+  display:block;
+  color:#563028;
+}
+.link{
+  width:192px;
+  height:87px;
+  line-height:87px;
+  border-bottom:1px solid #3d3747;
+  color:#899dcd;
+  font-size:16px;
+  position: relative;
+}
+div.link>a span:nth-child(2){
+  position:absolute;
+  left:44%;
+  color:#899dcd;
+}
+.link-icon{
+  width:50px;
+  height:50px;
+  float:left;
+  opacity:0.5;
+  position:absolute;
+  top:14px;
+  left:20%;
+}
+.link-text{
+  width:192px;
+  height:87px;
+  line-height:87px;
+  font-size:16px;
+  background-color:#2E7B8D;
+  display:none; 
+  position:absolute;
+  color:#A5F8FF;
+}
+.link:hover .link-text{
+  display:block;
+}
+
+.icon1{
+  background-position:0 -304px;
+}
+.icon2{
+  background-position:-50px -304px;
+}
+.icon3{
+  background-position:-150px -304px;
+}
+.icon4{
+  background-position:-150px -354px;
+}
+.icon5{
+  background-position:0 -354px;
+}
+.icon6{
+  background-position:-150px -404px;
+}
+.icon7{
+  background-position:-150px -404px;
+}
+.icon8{
+  background-position:-100px -354px;
+}
+.icon9{
+  background-position:-100px -404px;
+}
+
+/* 小图标 */
+ul.coop-links{
+  width:192px;
+  padding:24px 0 0 27px;
+  overflow:hidden;
+}
+.coop-links li{
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin:0 19px 22px 0;
+  overflow: hidden;
+}
+.coop-bg{
+  width:34px;
+  height:34px;
+  background:#958980;
+  position:absolute;
+  opacity:0.3;
+  border-radius:50%;
+}
+.coop-icon{
+  width:34px;
+  height:34px;
+  opacity:0.5;  
+  position:absolute;
+}
+/* 小图标悬浮后的变化 */
+.coop-links>li:hover .coop-bg{
+  opacity:1;
+  background:#2E7B8D;
+  transform:rotateY(180deg);
+  transition: all 0.5s;
+}
+.coop-links>li:hover .coop-icon{
+  opacity:1;
+  width:34px;
+  height:34px;
+  position:absolute;
+  z-index:4;
+}
+.coop1{
+  background-position:0 -454px;
+}
+.coop2{
+  background-position:-34px -488px;
+}
+.coop3{
+  background-position:-68px -488px;
+}
+.coop4{
+  background-position:-102px -454px;
+}
+.coop5{
+  background-position:-136px -454px;
+}
+.coop6{
+  background-position:0 -488px;
+}
+.coop7{
+  background-position:-34px -454px;
+}
+.coop8{
+  background-position:-68px -454px;
+}
+.coop9{
+  background-position:-102px -488px;
+}
+
+.dropdown-border{
+  border:6px solid #3a3543;
+  padding:5px;  
+}
+.dropdown-divider{
+  overflow: hidden;
+  border-top:1px dashed #3891A6;
+}
+.dropdown-menu a{
+  font-size:12px;
+  color:#AFFFFA;
+}
+.dropdown:hover .dropdown-menu{
+  display:block;
+  text-align: center;
+}
+/* aside字体颜色 */
+.font-style{
+  color:#c25521;
+}
+
+/* section主体 */
+section{
+  background:url("../html/imgs/wrap_bg.jpg");
+  background-size:cover;
+}
+
+/* nav导航栏 */
+/* 小字体样式 */
+.nav-font-size{
+  font-size:2px;
+}
